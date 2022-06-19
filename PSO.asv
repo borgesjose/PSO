@@ -1,5 +1,11 @@
 function [GBEST,cgCurve] = PSO(noP, maxIter, pso, problem, datavis )
 
+% Computation of PSO Algorithms.
+% Inputs: noP = ; 
+%         maxIter = ;
+%         pso
+
+
 nVar = problem.nVar;
 ub = problem.ub;
 lb = problem.lb;
